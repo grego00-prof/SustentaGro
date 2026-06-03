@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SustentaGro — Agricultura com Consciência</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO / NAV ===== -->
+  <header id="topo">
+    <nav class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">🌱</span>
+        <span class="logo-text">SustentaGro</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#agricultura">Agricultura</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== SEÇÃO 1: INÍCIO / BANNER ===== -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">🌍 Futuro Verde</span>
+      <h1 class="hero-title">Cultivar com<br><em>Responsabilidade</em><br>é Cultivar o Futuro</h1>
+      <p class="hero-sub">
+        A agricultura sustentável une produção de alimentos, preservação ambiental e
+        bem-estar social. Conheça práticas que transformam o campo e o planeta.
+      </p>
+      <a href="#sobre" class="btn-hero">Explorar agora</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>↓</span>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 2: SOBRE A SUSTENTABILIDADE ===== -->
+  <section id="sobre" class="section sobre-section">
+    <div class="container">
+      <div class="section-label">O que é</div>
+      <h2 class="section-title">Agricultura Sustentável</h2>
+      <p class="section-intro">
+        A agricultura sustentável é um conjunto de práticas que busca produzir alimentos de forma eficiente,
+        sem comprometer os recursos naturais para as gerações futuras. É o equilíbrio entre produtividade,
+        respeito ao meio ambiente e justiça social.
+      </p>
+
+      <div class="beneficios-grid">
+        <!-- Ambiental -->
+        <div class="beneficio-card ambiental">
+          <div class="beneficio-icon">🌿</div>
+          <h3>Benefícios Ambientais</h3>
+          <ul>
+            <li>Redução da emissão de gases de efeito estufa</li>
+            <li>Conservação da biodiversidade</li>
+            <li>Proteção dos recursos hídricos</li>
+            <li>Recuperação de solos degradados</li>
+            <li>Diminuição do desmatamento</li>
+          </ul>
+        </div>
+        <!-- Social -->
+        <div class="beneficio-card social">
+          <div class="beneficio-icon">🤝</div>
+          <h3>Benefícios Sociais</h3>
+          <ul>
+            <li>Segurança alimentar para comunidades</li>
+            <li>Geração de emprego no campo</li>
+            <li>Fortalecimento da agricultura familiar</li>
+            <li>Melhoria na qualidade dos alimentos</li>
+            <li>Valorização do conhecimento tradicional</li>
+          </ul>
+        </div>
+        <!-- Econômico -->
+        <div class="beneficio-card economico">
+          <div class="beneficio-icon">📈</div>
+          <h3>Benefícios Econômicos</h3>
+          <ul>
+            <li>Redução de custos com insumos químicos</li>
+            <li>Acesso a mercados de produtos orgânicos</li>
+            <li>Maior resiliência às mudanças climáticas</li>
+            <li>Valorização de produtos sustentáveis</li>
+            <li>Diversificação de renda no campo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 3: AGRICULTURA E MEIO AMBIENTE (CARDS) ===== -->
+  <section id="agricultura" class="section cards-section">
+    <div class="container">
+      <div class="section-label">Temáticas</div>
+      <h2 class="section-title">Agricultura & Meio Ambiente</h2>
+      <p class="section-intro">
+        Conheça os principais pilares que sustentam uma produção agrícola responsável e equilibrada com a natureza.
+      </p>
+
+      <div class="cards-grid">
+
+        <div class="info-card" data-delay="0">
+          <div class="card-icon">🪨</div>
+          <h3>Conservação do Solo</h3>
+          <p>
+            O solo é a base de toda produção agrícola. Práticas como plantio direto, rotação de culturas
+            e cobertura vegetal protegem sua estrutura, evitam erosão e mantêm a fertilidade natural por
+            mais tempo, reduzindo a necessidade de fertilizantes artificiais.
+          </p>
+          <div class="card-tag">Biodiversidade Edáfica</div>
+        </div>
+
+        <div class="info-card" data-delay="100">
+          <div class="card-icon">💧</div>
+          <h3>Economia de Água</h3>
+          <p>
+            A irrigação corresponde a cerca de 70% do consumo mundial de água doce. Técnicas como irrigação
+            por gotejamento, captação de água da chuva e reuso de efluentes reduzem drasticamente o desperdício
+            e garantem água para todos.
+          </p>
+          <div class="card-tag">Gestão Hídrica</div>
+        </div>
+
+        <div class="info-card" data-delay="200">
+          <div class="card-icon">☀️</div>
+          <h3>Energia Renovável</h3>
+          <p>
+            Painéis solares, biodigestores e mini usinas eólicas estão transformando propriedades rurais em
+            geradoras de energia limpa. O agronegócio sustentável reduz sua pegada de carbono e ainda pode
+            vender energia excedente à rede elétrica.
+          </p>
+          <div class="card-tag">Energia Limpa</div>
+        </div>
+
+        <div class="info-card" data-delay="300">
+          <div class="card-icon">🦋</div>
+          <h3>Biodiversidade</h3>
+          <p>
+            Manter corredores ecológicos, preservar matas ciliares e utilizar polinizadores naturais são
+            estratégias fundamentais. A biodiversidade garante o equilíbrio dos ecossistemas e aumenta a
+            resiliência das lavouras contra pragas e doenças.
+          </p>
+          <div class="card-tag">Equilíbrio Ecológico</div>
+        </div>
+
+        <div class="info-card" data-delay="400">
+          <div class="card-icon">🛰️</div>
+          <h3>Agricultura de Precisão</h3>
+          <p>
+            Drones, sensores IoT, inteligência artificial e imagens de satélite permitem monitorar lavouras
+            com precisão milimétrica. O resultado é a aplicação certeira de insumos apenas onde necessário,
+            reduzindo custos e impacto ambiental.
+          </p>
+          <div class="card-tag">AgroTech</div>
+        </div>
+
+        <div class="info-card" data-delay="500">
+          <div class="card-icon">♻️</div>
+          <h3>Reciclagem e Reaproveitamento</h3>
+          <p>
+            Compostagem de resíduos orgânicos, aproveitamento de palha como cobertura morta e biodigestão
+            de dejetos animais fecham o ciclo dos nutrientes. O que seria lixo torna-se insumo, economizando
+            recursos e eliminando passivos ambientais.
+          </p>
+          <div class="card-tag">Economia Circular</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 4: DICAS SUSTENTÁVEIS ===== -->
+  <section id="dicas" class="section dicas-section">
+    <div class="container">
+      <div class="section-label">Boas práticas</div>
+      <h2 class="section-title">Dicas Sustentáveis</h2>
+      <p class="section-intro">
+        Pequenas ações no campo e na mesa fazem grande diferença para o planeta.
+        Veja o que produtores e consumidores podem fazer agora mesmo.
+      </p>
+
+      <div class="dicas-wrapper">
+        <!-- Produtores -->
+        <div class="dicas-bloco">
+          <h3 class="dicas-subtitulo">🚜 Para Produtores Rurais</h3>
+          <ul class="dicas-lista">
+            <li>
+              <span class="dica-num">01</span>
+              <div>
+                <strong>Adote o plantio direto</strong>
+                <p>Evita o revolvimento do solo, preserva sua estrutura e reduz a emissão de carbono para a atmosfera.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">02</span>
+              <div>
+                <strong>Faça análise de solo periódica</strong>
+                <p>Corrija somente o que é necessário, evitando desperdício de corretivos e fertilizantes.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">03</span>
+              <div>
+                <strong>Implante sistemas agroflorestais</strong>
+                <p>A integração de árvores com culturas agrícolas melhora a biodiversidade e a renda do produtor.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">04</span>
+              <div>
+                <strong>Preserve as matas ciliares</strong>
+                <p>Proteja a vegetação às margens de rios e nascentes para garantir a qualidade e quantidade de água.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">05</span>
+              <div>
+                <strong>Use controle biológico de pragas</strong>
+                <p>Insetos predadores, fungos e bactérias benéficas substituem agrotóxicos e preservam o ecossistema.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">06</span>
+              <div>
+                <strong>Certifique sua produção orgânica</strong>
+                <p>Acesse mercados premium e valorize o seu produto com a garantia de um cultivo limpo e responsável.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Consumidores -->
+        <div class="dicas-bloco">
+          <h3 class="dicas-subtitulo">🛒 Para Consumidores</h3>
+          <ul class="dicas-lista">
+            <li>
+              <span class="dica-num">01</span>
+              <div>
+                <strong>Prefira alimentos orgânicos e locais</strong>
+                <p>Reduz a pegada de carbono do transporte e apoia agricultores que praticam métodos sustentáveis.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">02</span>
+              <div>
+                <strong>Compre na feira do produtor</strong>
+                <p>Encurta a cadeia produtiva, valoriza o campo e garante alimentos mais frescos e nutritivos.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">03</span>
+              <div>
+                <strong>Reduza o desperdício alimentar</strong>
+                <p>Planeje suas compras, aproveite cascas e talos, e doe o excedente para reduzir o lixo orgânico.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">04</span>
+              <div>
+                <strong>Faça compostagem em casa</strong>
+                <p>Transforme restos de alimentos em adubo natural para hortas domésticas ou doação a agricultores.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">05</span>
+              <div>
+                <strong>Leia os rótulos dos alimentos</strong>
+                <p>Conheça a origem do que consome e prefira marcas com selos de sustentabilidade e comércio justo.</p>
+              </div>
+            </li>
+            <li>
+              <span class="dica-num">06</span>
+              <div>
+                <strong>Diversifique sua dieta</strong>
+                <p>Consumir alimentos variados e da estação reduz a pressão sobre monoculturas e enriquece sua nutrição.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEÇÃO 5: QUIZ INTERATIVO ===== -->
+  <section id="quiz" class="section quiz-section">
+    <div class="container">
+      <div class="section-label">Teste seus conhecimentos</div>
+      <h2 class="section-title">Quiz Sustentável</h2>
+      <p class="section-intro">
+        Você sabe tudo sobre agricultura sustentável? Responda as 10 questões abaixo e descubra!
+      </p>
+
+      <div class="quiz-box" id="quizBox">
+        <!-- Tela de início -->
+        <div class="quiz-start" id="quizStart">
+          <div class="quiz-start-icon">🌾</div>
+          <h3>Pronto para o desafio?</h3>
+          <p>10 questões sobre sustentabilidade e agricultura aguardam você. Boa sorte!</p>
+          <button class="btn-quiz" id="btnIniciar">Iniciar Quiz</button>
+        </div>
+
+        <!-- Área das perguntas -->
+        <div class="quiz-pergunta" id="quizPergunta" style="display:none;">
+          <div class="quiz-header">
+            <span class="quiz-contador" id="quizContador">Questão 1 de 10</span>
+            <div class="quiz-progresso-bar">
+              <div class="quiz-progresso-fill" id="quizProgresso"></div>
+            </div>
+          </div>
+          <p class="quiz-enunciado" id="quizEnunciado"></p>
+          <ul class="quiz-alternativas" id="quizAlternativas"></ul>
+          <button class="btn-quiz" id="btnProximo" disabled>Próxima →</button>
+        </div>
+
+        <!-- Tela de resultado -->
+        <div class="quiz-resultado" id="quizResultado" style="display:none;">
+          <div class="resultado-emoji" id="resultadoEmoji"></div>
+          <h3 id="resultadoPontuacao"></h3>
+          <p id="resultadoMensagem"></p>
+          <button class="btn-quiz" id="btnReiniciar">Tentar Novamente</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span>🌱</span> SustentaGro
+      </div>
+      <p class="footer-msg">
+        "A Terra não é uma herança dos nossos pais — é um empréstimo dos nossos filhos."<br>
+        Cuide do planeta. Cada escolha conta.
+      </p>
+      <p class="footer-copy">
+        © <span id="anoAtual"></span> SustentaGro — Agricultura com Consciência. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
